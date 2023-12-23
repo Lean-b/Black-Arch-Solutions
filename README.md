@@ -1,4 +1,4 @@
-# Black-Arch-Soluctions
+# Black-Arch-Solutions
 [BlackArch download](https://blackarch.org/)
 
 
