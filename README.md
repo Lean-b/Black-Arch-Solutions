@@ -20,6 +20,9 @@ pacman-key --populate archlinux blackarch
 ```bash
 pacman-key --update --keyserver keyserver.ubuntu.com
 ```
+```
+sudo pacman -S archlinux-keyring
+```
 # Levon 'noptrix signature 
 **[Option](https://github.com/BlackArch/blackarch/issues/4034)**
 
