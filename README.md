@@ -46,3 +46,22 @@ yay -Rns python-uvicorn theharvester
 ```
 sudo pacman -Syu
 ```
+# Burp Suite Error
+```bash
+sudo pacman -S yay
+```
+```bash
+yay -Ss openjdk17
+```
+```bash
+yay -S nombre_del_paquete
+```
+```bash
+pwd: cd /usr/lib/jvm
+ls
+java-17-j9
+```
+```bash
+sudo archlinux-java set java-17-j9/
+java -version
+```
