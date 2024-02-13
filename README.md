@@ -23,6 +23,9 @@ pacman-key --update --keyserver keyserver.ubuntu.com
 ```
 sudo pacman -S archlinux-keyring
 ```
+```
+sudo pacman -Syu
+```
 # Levon 'noptrix signature 
 **[Option](https://github.com/BlackArch/blackarch/issues/4034)**
 
@@ -31,5 +34,15 @@ sudo echo F9A6E68A711354D84A9B91637533BAFE69A25079:4: >> /usr/share/pacman/keyri
 ```
 
 ```bash
+sudo pacman -Syu
+```
+# Conflicting files
+```
+uvicorn: /usr/bin/uvicorn exists in filesystem (owned by python-uvicorn)
+```
+```
+yay -Rns python-uvicorn theharvester
+```
+```
 sudo pacman -Syu
 ```
